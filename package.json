@@ -1,0 +1,50 @@
+{
+  "name": "quercus-blocks",
+  "private": true,
+  "description": "A simple demo to demonstrate TinaCMS blocks & open authoring with Next.js",
+  "license": "",
+  "version": "0.1.0",
+  "author": "Kendall Strautman",
+  "scripts": {
+    "dev": "next dev",
+    "develop": "yarn dev",
+    "build": "next build ",
+    "start": "next start ",
+    "export": "next export ",
+    "deploy": "yarn build && yarn export"
+  },
+  "dependencies": {
+    "@tinacms/webpack-helpers": "^0.1.0",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "next": "9.3.6",
+    "next-svgr": "^0.0.2",
+    "next-tinacms-github": "^0.31.0-alpha.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-dropzone": "^10.2.1",
+    "react-final-form": "^6.3.5",
+    "react-is": "^16.13.0",
+    "react-textarea-autosize": "^7.1.2",
+    "react-tinacms-github": "^0.31.0-alpha.5",
+    "react-tinacms-inline": "^0.31.0-alpha.4",
+    "styled-components": "^5.0.1",
+    "tinacms": "^0.31.0-alpha.5",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.6",
+    "hygen-next-tinacms-github": "https://github.com/dwalkr/hygen-next-tinacms-github",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "nextjs",
+    "tinacms"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kendallstrautman/quercus-blocks"
+  }
+}
